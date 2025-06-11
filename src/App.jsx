@@ -1,13 +1,18 @@
 
 import './App.css'
+import Footer from './layout/Footer';
+import Header from './layout/Header';
+import PageContent from './layout/PageContent';
 
 function App() {
 
   return (
-    <>
-      <h1 className="text-red-500">{"Hello"}</h1>
-    </>
+    <div className='flex flex-row '>
+      <Header/>
+      <PageContent/>
+      <Footer/>
+    </div>
   )
 }
 
-export default App
+export default App;

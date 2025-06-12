@@ -7,7 +7,7 @@ import PageContent from './layout/PageContent';
 function App() {
 
   return (
-    <div className='flex flex-row '>
+    <div className='flex flex-col '>
       <Header/>
       <PageContent/>
       <Footer/>

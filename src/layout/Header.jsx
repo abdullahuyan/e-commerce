@@ -6,7 +6,7 @@ import { Phone, Mail, Facebook, Twitter, Instagram, Youtube,User,
 
 export default function Header() {
   return (
-    <div className='w-screen'>
+    <div className='w-full'>
       <div className="bg-[#252B42] h-[58px] text-white text-sm font-bold py-4 px-4 hidden sm:block">
         <div className="container mx-auto flex flex-row justify-between items-center ">
           <div className="flex items-center gap-4 md:mb-0">
@@ -25,8 +25,8 @@ export default function Header() {
             <span>Follow Us : </span>
               <Instagram size={16} />
               <Youtube size={16} />
-              <Facebook size={16} fill='white'/>
-              <Twitter size={16} fill='white'/>
+              <Facebook size={16} />
+              <Twitter size={16} />
             </div>
           </div>
         </div>

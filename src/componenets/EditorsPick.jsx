@@ -3,16 +3,17 @@ export default function EditorsPick() {
       {
         title: 'MEN',
         image: '/ep1.jpg',
-        classes: 'row-span-2 col-span-2',
+        classes: 'md:row-span-2 md:col-span-2',
       },
       {
         title: 'WOMEN',
         image: '/ep2.jpg',
-        classes: 'row-span-2 col-span-1',
+        classes: 'md:row-span-2',
       },
       {
         title: 'ACCESSORIES',
         image: '/ep3.jpg',
+        classes: 'md:row-span-1',
       },
       {
         title: 'KIDS',

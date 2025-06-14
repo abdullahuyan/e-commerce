@@ -76,7 +76,7 @@ export default function MiddleSlider() {
         {slides.map((slide) => (
           <div key={slide.id}>
             <div 
-              className={`w-full h-[400px] md:h-[720px] bg-cover bg-center flex items-center ${slide.bgColor}`}
+              className={`w-full h-[400px] md:h-[680px] bg-cover bg-center flex items-center ${slide.bgColor}`}
               aria-label={`Slide ${slide.id}: ${slide.title}`}
             >
               <div className="absolute inset-0"></div>
@@ -100,7 +100,7 @@ export default function MiddleSlider() {
                 </div>
                 
               </div>
-              <img src={slide.bgImage} className="w-[443px] h-[685px] mx-12" />
+              <img src={slide.bgImage} className="w-[443px] h-[685px] mx-12 " />
             </div>
           </div>
         ))}

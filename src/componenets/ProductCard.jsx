@@ -1,5 +1,8 @@
+import { Link } from "react-router-dom";
+
 export default function ProductCard({ product }) {
     return (
+      <Link to={`/product/${product.id}`} className="block">
       <div className="relative p-4">
         <img
           src={product.image}
@@ -26,6 +29,7 @@ export default function ProductCard({ product }) {
           </div>
         </div>
       </div>
+      </Link>
     );
   }
   

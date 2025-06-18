@@ -5,6 +5,7 @@ import Footer from './layout/Footer';
 import Header from './layout/Header';
 import HomePage from "./pages/HomePage";
 import ShopPage from "./pages/ShopPage";
+import ProductDetailPage from './pages/ProductdetailPage';
 
 function App() {
 
@@ -12,8 +13,9 @@ function App() {
     <div className='flex flex-col '>
       <Header/>
       <Switch>
-        <Route exact path="/shop" component={ShopPage} />
+        <Route path="/shop" component={ShopPage} />
         <Route exact path="/" component={HomePage} />
+        <Route path="/product/:id" component={ProductDetailPage} />
       </Switch>
       <Footer/>
     </div>

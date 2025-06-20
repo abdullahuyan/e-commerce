@@ -6,6 +6,7 @@ import Header from './layout/Header';
 import HomePage from "./pages/HomePage";
 import ShopPage from "./pages/ShopPage";
 import ProductDetailPage from './pages/ProductdetailPage';
+import ContactPage from './pages/ContactPage';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Route path="/shop" component={ShopPage} />
         <Route exact path="/" component={HomePage} />
         <Route path="/product/:id" component={ProductDetailPage} />
+        <Route path="/contact" component={ContactPage} />
       </Switch>
       <Footer/>
     </div>

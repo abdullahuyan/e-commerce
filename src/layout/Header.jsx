@@ -92,7 +92,7 @@ import { Link } from "react-router-dom/cjs/react-router-dom.min";
   
               <a href="#" className="font-medium">About</a>
               <a href="#" className="font-medium">Blog</a>
-              <a href="#" className="font-medium">Contact</a>
+              <Link to="/contact" className="font-medium">Contact</Link>
               <a href="#" className="font-medium">Pages</a>
             </div>
   

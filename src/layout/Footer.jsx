@@ -1,4 +1,5 @@
 import { Facebook, Twitter, Instagram } from 'lucide-react';
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 export default function Footer() {
     return (
       <footer >
@@ -18,7 +19,7 @@ export default function Footer() {
             <div>
               <h4 className="font-bold mb-4">Company Info</h4>
               <ul className="space-y-2">
-                <li><a href="#" className="hover:text-blue-400">About Us</a></li>
+                <li><Link to="/contact" className="hover:text-blue-400">About Us</Link></li>
                 <li><a href="#" className="hover:text-blue-400">Carrier</a></li>
                 <li><a href="#" className="hover:text-blue-400">We are hiring</a></li>
                 <li><a href="#" className="hover:text-blue-400">Blog</a></li>

@@ -101,7 +101,7 @@ import { Link } from "react-router-dom/cjs/react-router-dom.min";
             <div className="hidden md:flex items-center gap-4 mt-4 md:mt-0 text-[#23A6F0]">
               <button className="flex items-center gap-1">
                 <User size={18} />
-                <span>Login / Register</span>
+                <span>Login / <Link to="/signup">Register</Link></span>
               </button>
               <button className="relative">
                 <Search size={18} />
